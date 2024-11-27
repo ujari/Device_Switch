@@ -20,7 +20,7 @@ void Device_op(const std::string& deviceInstanceId) {
 
     if (s & DN_DRIVER_LOADED)//장치가 활성화 되있는 경우
     {
-        CM_Disable_DevNode(devInst, 0);//비활성화
+        CM_Disable_DevNode(devInst, CM_DISABLE_PERSIST);//비활성화
     }
     else CM_Enable_DevNode(devInst, 0);
 }
