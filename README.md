@@ -13,3 +13,9 @@
      - ID 입력 시`\`를 C 언어에 알맞게 `\\`로 고쳐주세요.  
        예) `HID\GXTP216&COL83\5&5454` → `HID\\GXTP216&COL83\\5&5454`
      - 관리자 권한으로 실행하세요.
+-------------------------------
+### Contributors 🙌
+
+Thanks to all contributors who have helped make this project better!
+
+- **[minsu MOK](https://github.com/mokminsu)** - Code Contributions
